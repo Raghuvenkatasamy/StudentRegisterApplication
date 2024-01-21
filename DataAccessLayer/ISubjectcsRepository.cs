@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    interface ISubjectcsRepository
+   public interface ISubjectcsRepository
     {
+        public IEnumerable<Subjects> Listsubject();
     }
 }

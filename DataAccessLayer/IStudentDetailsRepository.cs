@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    interface IStudentDetailsRepository
+   public interface IStudentDetailsRepository
     {
+        public StudentDetails InsertRecord(StudentDetails product);
+        public IEnumerable<StudentDetails> ListAll();
+        public StudentDetails SelectByID(long id);
+        public StudentDetails DeleteRecord(long id);
+        public StudentDetails UpdateRecord(long id, StudentDetails prd);
     }
 }

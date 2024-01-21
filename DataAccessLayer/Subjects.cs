@@ -9,6 +9,6 @@ namespace DataAccessLayer
    public class Subjects
     {
         public long SubjectId { get; set; }
-        public long SubjectName { get; set; }
+        public string SubjectName { get; set; }
     }
 }

@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Register Application", "Student Register Application\Student Register Application.csproj", "{A3C913CE-1F01-484F-A2F0-FFE4FC34608B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student Register Application", "Student Register Application\Student Register Application.csproj", "{A3C913CE-1F01-484F-A2F0-FFE4FC34608B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{2A6B2400-5944-49FD-964A-E0F60E64FA96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{2A6B2400-5944-49FD-964A-E0F60E64FA96}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DL", "DL", "{C47A8AC2-3A1C-4B13-B84D-6B1B347AA090}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A3E10BF6-7F3B-472D-BD21-DED4BD7446D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{3EB393DF-0DD4-4F09-BD42-C6DE9733FF9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBscript", "DBscript", "{487F49BF-9F3F-4C8B-814E-DEC407C6F1A3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\SQL Server Management Studio\StudentRegistration.sql = ..\..\..\Documents\SQL Server Management Studio\StudentRegistration.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A3C913CE-1F01-484F-A2F0-FFE4FC34608B} = {A3E10BF6-7F3B-472D-BD21-DED4BD7446D8}
 		{2A6B2400-5944-49FD-964A-E0F60E64FA96} = {C47A8AC2-3A1C-4B13-B84D-6B1B347AA090}
+		{487F49BF-9F3F-4C8B-814E-DEC407C6F1A3} = {C47A8AC2-3A1C-4B13-B84D-6B1B347AA090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD755920-B69E-489E-940D-945859AF3A7D}
