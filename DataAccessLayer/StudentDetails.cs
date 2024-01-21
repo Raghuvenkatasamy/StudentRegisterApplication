@@ -52,6 +52,7 @@ namespace DataAccessLayer
         public string Email { get; set; }
         [Required]
         public long SubjectId { get; set; }
+        [Required]
         public List<Subjects> Subject { get; set; }
 
     }

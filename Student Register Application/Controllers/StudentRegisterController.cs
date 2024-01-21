@@ -27,16 +27,15 @@ namespace Student_Register_Application.Controllers
             try
             {
                 var Listview = _stuobj.ListAll();
-                if (Listview != null)
+                if (Listview == null)
                 {
                     return View("StudentDetailsView", Listview);
                 }
                 else
                 {
-                    ViewBag.NoRecordsMessage = "No Student Records";
-                    
-                    return View();
-                    //return No Student Record found;
+                    ViewBag.Message = "No Student Records";
+
+                    return View("StudentDetailsView", Listview);
                 }
             }catch
             {
